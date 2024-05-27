@@ -21,6 +21,11 @@ label {
     height: 200px;
     border: 2px ridge royalblue;
     margin: auto;
+    transition: ease-in 1s ;
+}
+
+.image:hover {
+    border-radius: 50px;
 }
 
 .btn {
@@ -36,4 +41,10 @@ label {
 .btn:hover {
     background: lightcoral;
     color: #fff;
+}
+
+#webCam {
+    border: ridge 20px blue;
+    height: 200px;
+    width: 300px;
 }
